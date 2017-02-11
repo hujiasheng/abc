@@ -1,0 +1,19 @@
+//
+//  ManDefine.pch
+//  BeggarJob
+//
+//  Created by Zhanggaoju on 2017/2/10.
+//  Copyright © 2017年 Zhanggaoju. All rights reserved.
+//
+
+#ifndef ManDefine_pch
+#define ManDefine_pch
+
+#import <MJFramework/MJFramework.h>
+
+
+#import "BaseDefine.h"
+#import "ClassDefine.h"
+#import "HeaderFile.h"
+
+#endif /* ManDefine_pch */

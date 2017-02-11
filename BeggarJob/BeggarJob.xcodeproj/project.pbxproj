@@ -1,0 +1,1004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034B8FC774C90486EB04DC2E /* libPods-BeggarJobTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B0C723AFB48A770AED757F /* libPods-BeggarJobTests.a */; };
+		A535D70EA1674AFE9B117A8B /* libPods-BeggarJobUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 682DFF7D0CCB34B9F20D8C19 /* libPods-BeggarJobUITests.a */; };
+		C53C3C1240972AB13A3C190D /* libPods-BeggarJob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E33DAEDDBE574131408799 /* libPods-BeggarJob.a */; };
+		E8C989BB1E4DC6D400191F44 /* MJFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C989BA1E4DC6D400191F44 /* MJFramework.framework */; };
+		E8C989BD1E4DC6F800191F44 /* MJFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E8C989BA1E4DC6D400191F44 /* MJFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E8D82D5B1E4D8E9A00C9DBA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D82D5A1E4D8E9A00C9DBA5 /* main.m */; };
+		E8D82D641E4D8E9A00C9DBA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D82D621E4D8E9A00C9DBA5 /* Main.storyboard */; };
+		E8D82D661E4D8E9A00C9DBA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D82D651E4D8E9A00C9DBA5 /* Assets.xcassets */; };
+		E8D82D691E4D8E9A00C9DBA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D82D671E4D8E9A00C9DBA5 /* LaunchScreen.storyboard */; };
+		E8D82D741E4D8E9A00C9DBA5 /* BeggarJobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D82D731E4D8E9A00C9DBA5 /* BeggarJobTests.m */; };
+		E8D82D7F1E4D8E9A00C9DBA5 /* BeggarJobUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D82D7E1E4D8E9A00C9DBA5 /* BeggarJobUITests.m */; };
+		E8D82DC71E4DA13900C9DBA5 /* JobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D82DC61E4DA13900C9DBA5 /* JobViewController.m */; };
+		E8D82DCA1E4DA15600C9DBA5 /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D82DC91E4DA15600C9DBA5 /* TaskViewController.m */; };
+		E8D82DCD1E4DA16F00C9DBA5 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D82DCC1E4DA16F00C9DBA5 /* NewViewController.m */; };
+		E8D82DD31E4DA24700C9DBA5 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D82DD21E4DA24700C9DBA5 /* MineViewController.m */; };
+		E8D82DEA1E4DA57200C9DBA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D82DE91E4DA57200C9DBA5 /* AppDelegate.m */; };
+		E8D82DFC1E4DAC0200C9DBA5 /* A_a@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D82DF41E4DAC0200C9DBA5 /* A_a@3x.png */; };
+		E8D82DFD1E4DAC0200C9DBA5 /* A@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D82DF51E4DAC0200C9DBA5 /* A@3x.png */; };
+		E8D82DFE1E4DAC0200C9DBA5 /* B_b@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D82DF61E4DAC0200C9DBA5 /* B_b@3x.png */; };
+		E8D82DFF1E4DAC0200C9DBA5 /* B@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D82DF71E4DAC0200C9DBA5 /* B@3x.png */; };
+		E8D82E001E4DAC0200C9DBA5 /* C_c@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D82DF81E4DAC0200C9DBA5 /* C_c@3x.png */; };
+		E8D82E011E4DAC0200C9DBA5 /* C@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D82DF91E4DAC0200C9DBA5 /* C@3x.png */; };
+		E8D82E021E4DAC0200C9DBA5 /* D_d@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D82DFA1E4DAC0200C9DBA5 /* D_d@3x.png */; };
+		E8D82E031E4DAC0200C9DBA5 /* D@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D82DFB1E4DAC0200C9DBA5 /* D@3x.png */; };
+		E8D82E051E4DAE9F00C9DBA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D82E041E4DAE9F00C9DBA5 /* Default-568h@2x.png */; };
+		E8DDAAB21E4E9C7A00DCC73E /* ManBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DDAAAD1E4E9C7A00DCC73E /* ManBarController.m */; };
+		E8DDAAB31E4E9C7A00DCC73E /* ManNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DDAAAF1E4E9C7A00DCC73E /* ManNavController.m */; };
+		E8DDAAB41E4E9C7A00DCC73E /* ManViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DDAAB11E4E9C7A00DCC73E /* ManViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8D82D701E4D8E9A00C9DBA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8D82D4E1E4D8E9A00C9DBA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8D82D551E4D8E9A00C9DBA5;
+			remoteInfo = BeggarJob;
+		};
+		E8D82D7B1E4D8E9A00C9DBA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8D82D4E1E4D8E9A00C9DBA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8D82D551E4D8E9A00C9DBA5;
+			remoteInfo = BeggarJob;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8C989BE1E4DC6F800191F44 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E8C989BD1E4DC6F800191F44 /* MJFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01E33DAEDDBE574131408799 /* libPods-BeggarJob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeggarJob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120830325FB2F78023441C35 /* Pods-BeggarJobUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeggarJobUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeggarJobUITests/Pods-BeggarJobUITests.release.xcconfig"; sourceTree = "<group>"; };
+		201B570D5DD8864F51D52AA4 /* Pods-BeggarJob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeggarJob.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeggarJob/Pods-BeggarJob.release.xcconfig"; sourceTree = "<group>"; };
+		26B0C723AFB48A770AED757F /* libPods-BeggarJobTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeggarJobTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6672589AD08657D2098CCDCB /* Pods-BeggarJobUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeggarJobUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeggarJobUITests/Pods-BeggarJobUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		682DFF7D0CCB34B9F20D8C19 /* libPods-BeggarJobUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeggarJobUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8660E317171B68FDEC54F715 /* Pods-BeggarJobTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeggarJobTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeggarJobTests/Pods-BeggarJobTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC29AD84072D4B0CFF5D654F /* Pods-BeggarJob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeggarJob.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeggarJob/Pods-BeggarJob.debug.xcconfig"; sourceTree = "<group>"; };
+		BB46FD64BD674C0D953E6D54 /* Pods-BeggarJobTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeggarJobTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeggarJobTests/Pods-BeggarJobTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8C989BA1E4DC6D400191F44 /* MJFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MJFramework.framework; path = BeggarJob/MJFramework.framework; sourceTree = "<group>"; };
+		E8D82D561E4D8E9A00C9DBA5 /* BeggarJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeggarJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D82D5A1E4D8E9A00C9DBA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8D82D631E4D8E9A00C9DBA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8D82D651E4D8E9A00C9DBA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8D82D681E4D8E9A00C9DBA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8D82D6A1E4D8E9A00C9DBA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D82D6F1E4D8E9A00C9DBA5 /* BeggarJobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeggarJobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D82D731E4D8E9A00C9DBA5 /* BeggarJobTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeggarJobTests.m; sourceTree = "<group>"; };
+		E8D82D751E4D8E9A00C9DBA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D82D7A1E4D8E9A00C9DBA5 /* BeggarJobUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeggarJobUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D82D7E1E4D8E9A00C9DBA5 /* BeggarJobUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeggarJobUITests.m; sourceTree = "<group>"; };
+		E8D82D801E4D8E9A00C9DBA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D82DC51E4DA13900C9DBA5 /* JobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JobViewController.h; path = Class/Job/Controller/JobViewController.h; sourceTree = "<group>"; };
+		E8D82DC61E4DA13900C9DBA5 /* JobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobViewController.m; path = Class/Job/Controller/JobViewController.m; sourceTree = "<group>"; };
+		E8D82DC81E4DA15600C9DBA5 /* TaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaskViewController.h; path = Class/Tesk/Controller/TaskViewController.h; sourceTree = "<group>"; };
+		E8D82DC91E4DA15600C9DBA5 /* TaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaskViewController.m; path = Class/Tesk/Controller/TaskViewController.m; sourceTree = "<group>"; };
+		E8D82DCB1E4DA16F00C9DBA5 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewViewController.h; path = Class/New/Controller/NewViewController.h; sourceTree = "<group>"; };
+		E8D82DCC1E4DA16F00C9DBA5 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewViewController.m; path = Class/New/Controller/NewViewController.m; sourceTree = "<group>"; };
+		E8D82DD11E4DA24700C9DBA5 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineViewController.h; path = Class/Mine/Controller/MineViewController.h; sourceTree = "<group>"; };
+		E8D82DD21E4DA24700C9DBA5 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineViewController.m; path = Class/Mine/Controller/MineViewController.m; sourceTree = "<group>"; };
+		E8D82DE81E4DA57200C9DBA5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8D82DE91E4DA57200C9DBA5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8D82DF41E4DAC0200C9DBA5 /* A_a@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A_a@3x.png"; path = "Icons/A_a@3x.png"; sourceTree = "<group>"; };
+		E8D82DF51E4DAC0200C9DBA5 /* A@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A@3x.png"; path = "Icons/A@3x.png"; sourceTree = "<group>"; };
+		E8D82DF61E4DAC0200C9DBA5 /* B_b@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "B_b@3x.png"; path = "Icons/B_b@3x.png"; sourceTree = "<group>"; };
+		E8D82DF71E4DAC0200C9DBA5 /* B@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "B@3x.png"; path = "Icons/B@3x.png"; sourceTree = "<group>"; };
+		E8D82DF81E4DAC0200C9DBA5 /* C_c@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C_c@3x.png"; path = "Icons/C_c@3x.png"; sourceTree = "<group>"; };
+		E8D82DF91E4DAC0200C9DBA5 /* C@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C@3x.png"; path = "Icons/C@3x.png"; sourceTree = "<group>"; };
+		E8D82DFA1E4DAC0200C9DBA5 /* D_d@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "D_d@3x.png"; path = "Icons/D_d@3x.png"; sourceTree = "<group>"; };
+		E8D82DFB1E4DAC0200C9DBA5 /* D@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "D@3x.png"; path = "Icons/D@3x.png"; sourceTree = "<group>"; };
+		E8D82E041E4DAE9F00C9DBA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E8DDAAAB1E4E9B6800DCC73E /* ManDefine.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ManDefine.pch; path = Macro/ManDefine.pch; sourceTree = "<group>"; };
+		E8DDAAAC1E4E9C7A00DCC73E /* ManBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManBarController.h; path = Base/ManBarController.h; sourceTree = "<group>"; };
+		E8DDAAAD1E4E9C7A00DCC73E /* ManBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManBarController.m; path = Base/ManBarController.m; sourceTree = "<group>"; };
+		E8DDAAAE1E4E9C7A00DCC73E /* ManNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManNavController.h; path = Base/ManNavController.h; sourceTree = "<group>"; };
+		E8DDAAAF1E4E9C7A00DCC73E /* ManNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManNavController.m; path = Base/ManNavController.m; sourceTree = "<group>"; };
+		E8DDAAB01E4E9C7A00DCC73E /* ManViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManViewController.h; path = Base/ManViewController.h; sourceTree = "<group>"; };
+		E8DDAAB11E4E9C7A00DCC73E /* ManViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManViewController.m; path = Base/ManViewController.m; sourceTree = "<group>"; };
+		E8DDAAB51E4E9FBB00DCC73E /* BaseDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDefine.h; sourceTree = "<group>"; };
+		E8DDAAB61E4EA01300DCC73E /* HeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
+		E8DDAAB71E4EA16C00DCC73E /* ClassDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8D82D531E4D8E9A00C9DBA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C989BB1E4DC6D400191F44 /* MJFramework.framework in Frameworks */,
+				C53C3C1240972AB13A3C190D /* libPods-BeggarJob.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D82D6C1E4D8E9A00C9DBA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034B8FC774C90486EB04DC2E /* libPods-BeggarJobTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D82D771E4D8E9A00C9DBA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A535D70EA1674AFE9B117A8B /* libPods-BeggarJobUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		572623718DBEEB48F7663179 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC29AD84072D4B0CFF5D654F /* Pods-BeggarJob.debug.xcconfig */,
+				201B570D5DD8864F51D52AA4 /* Pods-BeggarJob.release.xcconfig */,
+				8660E317171B68FDEC54F715 /* Pods-BeggarJobTests.debug.xcconfig */,
+				BB46FD64BD674C0D953E6D54 /* Pods-BeggarJobTests.release.xcconfig */,
+				6672589AD08657D2098CCDCB /* Pods-BeggarJobUITests.debug.xcconfig */,
+				120830325FB2F78023441C35 /* Pods-BeggarJobUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8D82D4D1E4D8E9A00C9DBA5 = {
+			isa = PBXGroup;
+			children = (
+				E8D82E041E4DAE9F00C9DBA5 /* Default-568h@2x.png */,
+				E8D82D581E4D8E9A00C9DBA5 /* BeggarJob */,
+				E8D82D721E4D8E9A00C9DBA5 /* BeggarJobTests */,
+				E8D82D7D1E4D8E9A00C9DBA5 /* BeggarJobUITests */,
+				E8D82D571E4D8E9A00C9DBA5 /* Products */,
+				E8D82DF01E4DAB3700C9DBA5 /* Frameworks */,
+				572623718DBEEB48F7663179 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E8D82D571E4D8E9A00C9DBA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82D561E4D8E9A00C9DBA5 /* BeggarJob.app */,
+				E8D82D6F1E4D8E9A00C9DBA5 /* BeggarJobTests.xctest */,
+				E8D82D7A1E4D8E9A00C9DBA5 /* BeggarJobUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8D82D581E4D8E9A00C9DBA5 /* BeggarJob */ = {
+			isa = PBXGroup;
+			children = (
+				E8DDAAA91E4E9A9800DCC73E /* Macro */,
+				E8D82DA91E4D9DE700C9DBA5 /* Base */,
+				E8D82DA81E4D9DA100C9DBA5 /* Class */,
+				E8DDAAA81E4E99BB00DCC73E /* Lib */,
+				E8D82D591E4D8E9A00C9DBA5 /* Supporting Files */,
+			);
+			path = BeggarJob;
+			sourceTree = "<group>";
+		};
+		E8D82D591E4D8E9A00C9DBA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82DF31E4DABF100C9DBA5 /* Icons */,
+				E8D82D651E4D8E9A00C9DBA5 /* Assets.xcassets */,
+				E8D82D5A1E4D8E9A00C9DBA5 /* main.m */,
+				E8D82D621E4D8E9A00C9DBA5 /* Main.storyboard */,
+				E8D82D671E4D8E9A00C9DBA5 /* LaunchScreen.storyboard */,
+				E8D82D6A1E4D8E9A00C9DBA5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8D82D721E4D8E9A00C9DBA5 /* BeggarJobTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82D731E4D8E9A00C9DBA5 /* BeggarJobTests.m */,
+				E8D82D751E4D8E9A00C9DBA5 /* Info.plist */,
+			);
+			path = BeggarJobTests;
+			sourceTree = "<group>";
+		};
+		E8D82D7D1E4D8E9A00C9DBA5 /* BeggarJobUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82D7E1E4D8E9A00C9DBA5 /* BeggarJobUITests.m */,
+				E8D82D801E4D8E9A00C9DBA5 /* Info.plist */,
+			);
+			path = BeggarJobUITests;
+			sourceTree = "<group>";
+		};
+		E8D82D951E4D947A00C9DBA5 /* Job */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82DBB1E4D9FE200C9DBA5 /* Controller */,
+				E8D82DBA1E4D9FDF00C9DBA5 /* View */,
+				E8D82DB91E4D9FDB00C9DBA5 /* Model */,
+			);
+			name = Job;
+			sourceTree = "<group>";
+		};
+		E8D82D961E4D948D00C9DBA5 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82DC11E4D9FF600C9DBA5 /* Controller */,
+				E8D82DC01E4D9FF300C9DBA5 /* View */,
+				E8D82DBF1E4D9FF100C9DBA5 /* Model */,
+			);
+			name = New;
+			sourceTree = "<group>";
+		};
+		E8D82D971E4D94B600C9DBA5 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82DBE1E4D9FEC00C9DBA5 /* Controller */,
+				E8D82DBD1E4D9FE900C9DBA5 /* View */,
+				E8D82DBC1E4D9FE600C9DBA5 /* Model */,
+			);
+			name = Task;
+			sourceTree = "<group>";
+		};
+		E8D82D981E4D954E00C9DBA5 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82DC41E4DA00800C9DBA5 /* Controller */,
+				E8D82DC31E4DA00500C9DBA5 /* View */,
+				E8D82DC21E4DA00100C9DBA5 /* Model */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		E8D82DA81E4D9DA100C9DBA5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82D951E4D947A00C9DBA5 /* Job */,
+				E8D82D971E4D94B600C9DBA5 /* Task */,
+				E8D82D961E4D948D00C9DBA5 /* New */,
+				E8D82D981E4D954E00C9DBA5 /* Mine */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		E8D82DA91E4D9DE700C9DBA5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82DE81E4DA57200C9DBA5 /* AppDelegate.h */,
+				E8D82DE91E4DA57200C9DBA5 /* AppDelegate.m */,
+				E8DDAAAC1E4E9C7A00DCC73E /* ManBarController.h */,
+				E8DDAAAD1E4E9C7A00DCC73E /* ManBarController.m */,
+				E8DDAAAE1E4E9C7A00DCC73E /* ManNavController.h */,
+				E8DDAAAF1E4E9C7A00DCC73E /* ManNavController.m */,
+				E8DDAAB01E4E9C7A00DCC73E /* ManViewController.h */,
+				E8DDAAB11E4E9C7A00DCC73E /* ManViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		E8D82DB91E4D9FDB00C9DBA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E8D82DBA1E4D9FDF00C9DBA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E8D82DBB1E4D9FE200C9DBA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82DC51E4DA13900C9DBA5 /* JobViewController.h */,
+				E8D82DC61E4DA13900C9DBA5 /* JobViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E8D82DBC1E4D9FE600C9DBA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E8D82DBD1E4D9FE900C9DBA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E8D82DBE1E4D9FEC00C9DBA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82DC81E4DA15600C9DBA5 /* TaskViewController.h */,
+				E8D82DC91E4DA15600C9DBA5 /* TaskViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E8D82DBF1E4D9FF100C9DBA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E8D82DC01E4D9FF300C9DBA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E8D82DC11E4D9FF600C9DBA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82DCB1E4DA16F00C9DBA5 /* NewViewController.h */,
+				E8D82DCC1E4DA16F00C9DBA5 /* NewViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E8D82DC21E4DA00100C9DBA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E8D82DC31E4DA00500C9DBA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E8D82DC41E4DA00800C9DBA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82DD11E4DA24700C9DBA5 /* MineViewController.h */,
+				E8D82DD21E4DA24700C9DBA5 /* MineViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E8D82DF01E4DAB3700C9DBA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C989BA1E4DC6D400191F44 /* MJFramework.framework */,
+				01E33DAEDDBE574131408799 /* libPods-BeggarJob.a */,
+				26B0C723AFB48A770AED757F /* libPods-BeggarJobTests.a */,
+				682DFF7D0CCB34B9F20D8C19 /* libPods-BeggarJobUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8D82DF31E4DABF100C9DBA5 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				E8D82DF41E4DAC0200C9DBA5 /* A_a@3x.png */,
+				E8D82DF51E4DAC0200C9DBA5 /* A@3x.png */,
+				E8D82DF61E4DAC0200C9DBA5 /* B_b@3x.png */,
+				E8D82DF71E4DAC0200C9DBA5 /* B@3x.png */,
+				E8D82DF81E4DAC0200C9DBA5 /* C_c@3x.png */,
+				E8D82DF91E4DAC0200C9DBA5 /* C@3x.png */,
+				E8D82DFA1E4DAC0200C9DBA5 /* D_d@3x.png */,
+				E8D82DFB1E4DAC0200C9DBA5 /* D@3x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		E8DDAAA81E4E99BB00DCC73E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		E8DDAAA91E4E9A9800DCC73E /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				E8DDAAAB1E4E9B6800DCC73E /* ManDefine.pch */,
+				E8DDAAB51E4E9FBB00DCC73E /* BaseDefine.h */,
+				E8DDAAB71E4EA16C00DCC73E /* ClassDefine.h */,
+				E8DDAAB61E4EA01300DCC73E /* HeaderFile.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8D82D551E4D8E9A00C9DBA5 /* BeggarJob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D82D831E4D8E9A00C9DBA5 /* Build configuration list for PBXNativeTarget "BeggarJob" */;
+			buildPhases = (
+				7D3832BDF984370FDE457929 /* [CP] Check Pods Manifest.lock */,
+				E8D82D521E4D8E9A00C9DBA5 /* Sources */,
+				E8D82D531E4D8E9A00C9DBA5 /* Frameworks */,
+				E8D82D541E4D8E9A00C9DBA5 /* Resources */,
+				E8C989BE1E4DC6F800191F44 /* Embed Frameworks */,
+				B6C5299D82F9E3BAE5257DDC /* [CP] Embed Pods Frameworks */,
+				73B48DEDB6E419FFCBDF2EEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeggarJob;
+			productName = BeggarJob;
+			productReference = E8D82D561E4D8E9A00C9DBA5 /* BeggarJob.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8D82D6E1E4D8E9A00C9DBA5 /* BeggarJobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D82D861E4D8E9A00C9DBA5 /* Build configuration list for PBXNativeTarget "BeggarJobTests" */;
+			buildPhases = (
+				452ED81C549B3408DDFDDDA9 /* [CP] Check Pods Manifest.lock */,
+				E8D82D6B1E4D8E9A00C9DBA5 /* Sources */,
+				E8D82D6C1E4D8E9A00C9DBA5 /* Frameworks */,
+				E8D82D6D1E4D8E9A00C9DBA5 /* Resources */,
+				2E2DCA2E88FB98C28C5ECD62 /* [CP] Embed Pods Frameworks */,
+				4F483A2F301953EFEA28BC36 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8D82D711E4D8E9A00C9DBA5 /* PBXTargetDependency */,
+			);
+			name = BeggarJobTests;
+			productName = BeggarJobTests;
+			productReference = E8D82D6F1E4D8E9A00C9DBA5 /* BeggarJobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8D82D791E4D8E9A00C9DBA5 /* BeggarJobUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D82D891E4D8E9A00C9DBA5 /* Build configuration list for PBXNativeTarget "BeggarJobUITests" */;
+			buildPhases = (
+				1AA153AE16F03BD659ED7CC5 /* [CP] Check Pods Manifest.lock */,
+				E8D82D761E4D8E9A00C9DBA5 /* Sources */,
+				E8D82D771E4D8E9A00C9DBA5 /* Frameworks */,
+				E8D82D781E4D8E9A00C9DBA5 /* Resources */,
+				62CAD202DDCC04707E3A8A84 /* [CP] Embed Pods Frameworks */,
+				824CC3263B53C01255866BB5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8D82D7C1E4D8E9A00C9DBA5 /* PBXTargetDependency */,
+			);
+			name = BeggarJobUITests;
+			productName = BeggarJobUITests;
+			productReference = E8D82D7A1E4D8E9A00C9DBA5 /* BeggarJobUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8D82D4E1E4D8E9A00C9DBA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Zhanggaoju;
+				TargetAttributes = {
+					E8D82D551E4D8E9A00C9DBA5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E8D82D6E1E4D8E9A00C9DBA5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E8D82D551E4D8E9A00C9DBA5;
+					};
+					E8D82D791E4D8E9A00C9DBA5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E8D82D551E4D8E9A00C9DBA5;
+					};
+				};
+			};
+			buildConfigurationList = E8D82D511E4D8E9A00C9DBA5 /* Build configuration list for PBXProject "BeggarJob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8D82D4D1E4D8E9A00C9DBA5;
+			productRefGroup = E8D82D571E4D8E9A00C9DBA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8D82D551E4D8E9A00C9DBA5 /* BeggarJob */,
+				E8D82D6E1E4D8E9A00C9DBA5 /* BeggarJobTests */,
+				E8D82D791E4D8E9A00C9DBA5 /* BeggarJobUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8D82D541E4D8E9A00C9DBA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D82E011E4DAC0200C9DBA5 /* C@3x.png in Resources */,
+				E8D82DFF1E4DAC0200C9DBA5 /* B@3x.png in Resources */,
+				E8D82D691E4D8E9A00C9DBA5 /* LaunchScreen.storyboard in Resources */,
+				E8D82DFC1E4DAC0200C9DBA5 /* A_a@3x.png in Resources */,
+				E8D82E031E4DAC0200C9DBA5 /* D@3x.png in Resources */,
+				E8D82E051E4DAE9F00C9DBA5 /* Default-568h@2x.png in Resources */,
+				E8D82DFD1E4DAC0200C9DBA5 /* A@3x.png in Resources */,
+				E8D82E021E4DAC0200C9DBA5 /* D_d@3x.png in Resources */,
+				E8D82D661E4D8E9A00C9DBA5 /* Assets.xcassets in Resources */,
+				E8D82E001E4DAC0200C9DBA5 /* C_c@3x.png in Resources */,
+				E8D82D641E4D8E9A00C9DBA5 /* Main.storyboard in Resources */,
+				E8D82DFE1E4DAC0200C9DBA5 /* B_b@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D82D6D1E4D8E9A00C9DBA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D82D781E4D8E9A00C9DBA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AA153AE16F03BD659ED7CC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E2DCA2E88FB98C28C5ECD62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeggarJobTests/Pods-BeggarJobTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		452ED81C549B3408DDFDDDA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F483A2F301953EFEA28BC36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeggarJobTests/Pods-BeggarJobTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62CAD202DDCC04707E3A8A84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeggarJobUITests/Pods-BeggarJobUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73B48DEDB6E419FFCBDF2EEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeggarJob/Pods-BeggarJob-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D3832BDF984370FDE457929 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		824CC3263B53C01255866BB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeggarJobUITests/Pods-BeggarJobUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6C5299D82F9E3BAE5257DDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeggarJob/Pods-BeggarJob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8D82D521E4D8E9A00C9DBA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D82DCA1E4DA15600C9DBA5 /* TaskViewController.m in Sources */,
+				E8DDAAB21E4E9C7A00DCC73E /* ManBarController.m in Sources */,
+				E8DDAAB31E4E9C7A00DCC73E /* ManNavController.m in Sources */,
+				E8D82DEA1E4DA57200C9DBA5 /* AppDelegate.m in Sources */,
+				E8D82DC71E4DA13900C9DBA5 /* JobViewController.m in Sources */,
+				E8D82DCD1E4DA16F00C9DBA5 /* NewViewController.m in Sources */,
+				E8DDAAB41E4E9C7A00DCC73E /* ManViewController.m in Sources */,
+				E8D82DD31E4DA24700C9DBA5 /* MineViewController.m in Sources */,
+				E8D82D5B1E4D8E9A00C9DBA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D82D6B1E4D8E9A00C9DBA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D82D741E4D8E9A00C9DBA5 /* BeggarJobTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D82D761E4D8E9A00C9DBA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D82D7F1E4D8E9A00C9DBA5 /* BeggarJobUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8D82D711E4D8E9A00C9DBA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8D82D551E4D8E9A00C9DBA5 /* BeggarJob */;
+			targetProxy = E8D82D701E4D8E9A00C9DBA5 /* PBXContainerItemProxy */;
+		};
+		E8D82D7C1E4D8E9A00C9DBA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8D82D551E4D8E9A00C9DBA5 /* BeggarJob */;
+			targetProxy = E8D82D7B1E4D8E9A00C9DBA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8D82D621E4D8E9A00C9DBA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D82D631E4D8E9A00C9DBA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8D82D671E4D8E9A00C9DBA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D82D681E4D8E9A00C9DBA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8D82D811E4D8E9A00C9DBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8D82D821E4D8E9A00C9DBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8D82D841E4D8E9A00C9DBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC29AD84072D4B0CFF5D654F /* Pods-BeggarJob.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BeggarJob",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BeggarJob/Macro/ManDefine.pch";
+				INFOPLIST_FILE = BeggarJob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qigaikeji.BeggarJob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8D82D851E4D8E9A00C9DBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201B570D5DD8864F51D52AA4 /* Pods-BeggarJob.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BeggarJob",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BeggarJob/Macro/ManDefine.pch";
+				INFOPLIST_FILE = BeggarJob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qigaikeji.BeggarJob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8D82D871E4D8E9A00C9DBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8660E317171B68FDEC54F715 /* Pods-BeggarJobTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeggarJobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qigaikeji.BeggarJobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeggarJob.app/BeggarJob";
+			};
+			name = Debug;
+		};
+		E8D82D881E4D8E9A00C9DBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB46FD64BD674C0D953E6D54 /* Pods-BeggarJobTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeggarJobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qigaikeji.BeggarJobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeggarJob.app/BeggarJob";
+			};
+			name = Release;
+		};
+		E8D82D8A1E4D8E9A00C9DBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6672589AD08657D2098CCDCB /* Pods-BeggarJobUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = BeggarJobUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qigaikeji.BeggarJobUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeggarJob;
+			};
+			name = Debug;
+		};
+		E8D82D8B1E4D8E9A00C9DBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120830325FB2F78023441C35 /* Pods-BeggarJobUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = BeggarJobUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qigaikeji.BeggarJobUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeggarJob;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8D82D511E4D8E9A00C9DBA5 /* Build configuration list for PBXProject "BeggarJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D82D811E4D8E9A00C9DBA5 /* Debug */,
+				E8D82D821E4D8E9A00C9DBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8D82D831E4D8E9A00C9DBA5 /* Build configuration list for PBXNativeTarget "BeggarJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D82D841E4D8E9A00C9DBA5 /* Debug */,
+				E8D82D851E4D8E9A00C9DBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8D82D861E4D8E9A00C9DBA5 /* Build configuration list for PBXNativeTarget "BeggarJobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D82D871E4D8E9A00C9DBA5 /* Debug */,
+				E8D82D881E4D8E9A00C9DBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8D82D891E4D8E9A00C9DBA5 /* Build configuration list for PBXNativeTarget "BeggarJobUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D82D8A1E4D8E9A00C9DBA5 /* Debug */,
+				E8D82D8B1E4D8E9A00C9DBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8D82D4E1E4D8E9A00C9DBA5 /* Project object */;
+}
